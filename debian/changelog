@@ -1,0 +1,6 @@
+centreon-clib (1.4.2-1) trusty; urgency=low
+
+  * Initial release.
+
+ -- Sébastien Gross <seb-ppa@chezwam.org>  Thu, 04 Feb 2016 15:00:54 +0100
+

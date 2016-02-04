@@ -1,0 +1,33 @@
+This package was debianized by Sébastien Gross <seb-ppa@chezwam.org>
+on Thu, 04 Feb 2016 15:00:54 +0100.
+
+It was downloaded from https://www.centreon.com
+
+Upstream Author:
+
+   Centreon Team
+
+Copyright:
+
+    Copyright 2011-2014 Centreon <contact@centreon.com>
+
+
+License:
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+        http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+The Debian packaging is (C) 2016, Sébastien Gross <seb-ppa@chezwam.org>
+and is licensed under the GPL, see above.

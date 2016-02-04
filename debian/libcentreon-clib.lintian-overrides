@@ -1,0 +1,2 @@
+libcentreon-clib: new-package-should-close-itp-bug
+libcentreon-clib: shlib-without-versioned-soname usr/lib/libcentreon_clib.so libcentreon_clib.so

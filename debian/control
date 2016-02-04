@@ -1,0 +1,28 @@
+Source: centreon-clib
+Section: net
+Priority: extra
+Maintainer: Sébastien Gross <seb-ppa@chezwam.org>
+Build-Depends: debhelper (>= 7.0.50)
+Standards-Version: 3.9.5
+Homepage: https://centreon.com
+Vcs-Browser: https://github.com/centreon/centreon-clib
+Vcs-Git: https://github.com/centreon/centreon-clib.git
+
+Package: libcentreon-clib-dev
+Section: libdevel
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library used in multiple monitoring-related projects
+ Centreon Clib is an open-source utility library used by some Centreon
+ software. It is a low-level component of the Centreon software suite.
+ .
+ This package contains the development files.
+
+
+Package: libcentreon-clib
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library used in multiple monitoring-related projects
+ Centreon Clib is an open-source utility library used by some Centreon
+ software. It is a low-level component of the Centreon software suite.
