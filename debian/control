@@ -2,7 +2,7 @@ Source: centreon-clib
 Section: net
 Priority: extra
 Maintainer: Sébastien Gross <seb-ppa@chezwam.org>
-Build-Depends: debhelper (>= 7.0.50)
+Build-Depends: debhelper (>= 7.0.50), cmake
 Standards-Version: 3.9.5
 Homepage: https://centreon.com
 Vcs-Browser: https://github.com/centreon/centreon-clib
