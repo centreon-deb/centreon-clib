@@ -1,0 +1,22 @@
+diff --git a/build/CMakeLists.txt b/build/CMakeLists.txt
+index 4589acf..2644ab6 100644
+--- a/build/CMakeLists.txt
++++ b/build/CMakeLists.txt
+@@ -318,6 +318,8 @@ if (WITH_SHARED_LIB)
+     PROPERTIES
+     OUTPUT_NAME
+     "centreon_clib"
++    SOVERSION ${CLIB_MAJOR}
++    VERSION ${CLIB_VERSION}
+   )
+   # Install shared library.
+   install(
+@@ -349,6 +351,8 @@ if (WITH_STATIC_LIB)
+     PROPERTIES
+     OUTPUT_NAME
+     "centreon_clib"
++    SOVERSION ${CLIB_MAJOR}
++    VERSION ${CLIB_VERSION}
+   )
+   # Install static library.
+   install(
